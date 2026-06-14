@@ -1,3 +1,3 @@
 # Ghost Core
 
-This repository is for review and interest for members of the Furman Lab.
+This repository is for the interest of members at the Furman Lab.
