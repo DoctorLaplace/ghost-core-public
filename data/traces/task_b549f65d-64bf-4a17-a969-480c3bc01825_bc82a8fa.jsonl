@@ -1,0 +1,25 @@
+{"ts": "2026-06-11T17:30:13.104833Z", "event_type": "trace_started", "payload": {"task_id": "task_b549f65d-64bf-4a17-a969-480c3bc01825"}}
+{"ts": "2026-06-11T17:30:13.272404Z", "event_type": "prompt_budget", "payload": {"total_tokens_est": 4278, "dropped_sections": []}}
+{"ts": "2026-06-11T17:30:13.275521Z", "event_type": "llm_request", "payload": {"prompt_len_chars": 34151, "model": "gemini-3.5-flash"}}
+{"ts": "2026-06-11T17:30:13.280141Z", "event_type": "llm_request", "payload": {"prompt_len_chars": 284, "model": "gemini-3.1-flash-lite"}}
+{"ts": "2026-06-11T17:30:14.294541Z", "event_type": "plan_generated", "payload": {"count": 0}}
+{"ts": "2026-06-11T17:30:14.295570Z", "event_type": "llm_request", "payload": {"prompt_len_chars": 33603, "model": "gemini-3.5-flash"}}
+{"ts": "2026-06-11T17:30:15.002275Z", "event_type": "llm_response", "payload": {"model": "gemini-3.1-flash-lite", "latency_sec": 1.7216215133666992, "response_len_chars": 35}}
+{"ts": "2026-06-11T17:30:18.086686Z", "event_type": "llm_response", "payload": {"model": "gemini-3.5-flash", "latency_sec": 3.7911155223846436, "response_len_chars": 304}}
+{"ts": "2026-06-11T17:30:18.087196Z", "event_type": "tool_call", "payload": {"tool": "create_file", "args_keys": ["path", "content"]}}
+{"ts": "2026-06-11T17:30:18.088284Z", "event_type": "tool_result", "payload": {"tool": "create_file", "success": true, "result_len": 72}}
+{"ts": "2026-06-11T17:30:18.151694Z", "event_type": "prompt_budget", "payload": {"total_tokens_est": 4325, "dropped_sections": []}}
+{"ts": "2026-06-11T17:30:18.152715Z", "event_type": "llm_request", "payload": {"prompt_len_chars": 1674, "model": "gemini-3.1-flash-lite"}}
+{"ts": "2026-06-11T17:30:18.152715Z", "event_type": "llm_request", "payload": {"prompt_len_chars": 33792, "model": "gemini-3.5-flash"}}
+{"ts": "2026-06-11T17:30:19.227120Z", "event_type": "llm_response", "payload": {"model": "gemini-3.1-flash-lite", "latency_sec": 1.0744044780731201, "response_len_chars": 288}}
+{"ts": "2026-06-11T17:30:21.623035Z", "event_type": "llm_response", "payload": {"model": "gemini-3.5-flash", "latency_sec": 3.469294309616089, "response_len_chars": 270}}
+{"ts": "2026-06-11T17:30:21.624048Z", "event_type": "tool_call", "payload": {"tool": "read_file", "args_keys": ["path"]}}
+{"ts": "2026-06-11T17:30:21.624557Z", "event_type": "tool_result", "payload": {"tool": "read_file", "success": true, "result_len": 1}}
+{"ts": "2026-06-11T17:30:21.692011Z", "event_type": "prompt_budget", "payload": {"total_tokens_est": 4357, "dropped_sections": []}}
+{"ts": "2026-06-11T17:30:21.692522Z", "event_type": "llm_request", "payload": {"prompt_len_chars": 1585, "model": "gemini-3.1-flash-lite"}}
+{"ts": "2026-06-11T17:30:21.692522Z", "event_type": "llm_request", "payload": {"prompt_len_chars": 33921, "model": "gemini-3.5-flash"}}
+{"ts": "2026-06-11T17:30:22.355865Z", "event_type": "llm_response", "payload": {"model": "gemini-3.1-flash-lite", "latency_sec": 0.6628303527832031, "response_len_chars": 246}}
+{"ts": "2026-06-11T17:30:26.944370Z", "event_type": "llm_response", "payload": {"model": "gemini-3.5-flash", "latency_sec": 5.2508158683776855, "response_len_chars": 467}}
+{"ts": "2026-06-11T17:30:26.945400Z", "event_type": "tool_call", "payload": {"tool": "answer_director", "args_keys": ["response"]}}
+{"ts": "2026-06-11T17:30:26.945400Z", "event_type": "tool_result", "payload": {"tool": "answer_director", "success": true, "result_len": 181}}
+{"ts": "2026-06-11T17:30:26.946421Z", "event_type": "trace_ended", "payload": {"outcome": "success"}}

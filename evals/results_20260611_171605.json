@@ -1,0 +1,252 @@
+{
+  "timestamp": "2026-06-11T17:16:05.960477Z",
+  "aggregate_pass_rate": 0.0,
+  "category_pass_rates": {
+    "file_ops": 0.0,
+    "research": 0.0,
+    "reasoning": 0.0,
+    "coding": 0.0
+  },
+  "results": [
+    {
+      "id": "f01",
+      "prompt": "Create a file named eval_out_f01.txt containing exactly the word DONE",
+      "category": "file_ops",
+      "status": "fail",
+      "duration_sec": 0.0,
+      "error": "File eval_out_f01.txt does not exist."
+    },
+    {
+      "id": "f02",
+      "prompt": "Create a file named eval_out_f02.txt containing exactly the word PASS",
+      "category": "file_ops",
+      "status": "fail",
+      "duration_sec": 0.0,
+      "error": "File eval_out_f02.txt does not exist."
+    },
+    {
+      "id": "f03",
+      "prompt": "Create a file named eval_out_f03.txt containing exactly the word GHOST",
+      "category": "file_ops",
+      "status": "fail",
+      "duration_sec": 0.0,
+      "error": "File eval_out_f03.txt does not exist."
+    },
+    {
+      "id": "f04",
+      "prompt": "Create an empty file named eval_out_f04.txt",
+      "category": "file_ops",
+      "status": "fail",
+      "duration_sec": 0.0,
+      "error": "Expected file eval_out_f04.txt does not exist."
+    },
+    {
+      "id": "f05",
+      "prompt": "Write the text GHOST_CORE to a file named eval_out_f05.txt",
+      "category": "file_ops",
+      "status": "fail",
+      "duration_sec": 0.0,
+      "error": "File eval_out_f05.txt does not exist."
+    },
+    {
+      "id": "f06",
+      "prompt": "Create a file named eval_out_f06.txt containing exactly the word CORE",
+      "category": "file_ops",
+      "status": "fail",
+      "duration_sec": 0.0,
+      "error": "File eval_out_f06.txt does not exist."
+    },
+    {
+      "id": "f07",
+      "prompt": "Create a file named eval_out_f07.txt containing exactly the word COGNITION",
+      "category": "file_ops",
+      "status": "fail",
+      "duration_sec": 0.0,
+      "error": "File eval_out_f07.txt does not exist."
+    },
+    {
+      "id": "f08",
+      "prompt": "Create an empty file named eval_out_f08.txt",
+      "category": "file_ops",
+      "status": "fail",
+      "duration_sec": 0.0,
+      "error": "Expected file eval_out_f08.txt does not exist."
+    },
+    {
+      "id": "f09",
+      "prompt": "Write the text HELLO to a file named eval_out_f09.txt",
+      "category": "file_ops",
+      "status": "fail",
+      "duration_sec": 0.0,
+      "error": "File eval_out_f09.txt does not exist."
+    },
+    {
+      "id": "f10",
+      "prompt": "Create a file named eval_out_f10.txt containing exactly the word WORLD",
+      "category": "file_ops",
+      "status": "fail",
+      "duration_sec": 0.0,
+      "error": "File eval_out_f10.txt does not exist."
+    },
+    {
+      "id": "r01",
+      "prompt": "Research the chemical formula of glucose and write it to eval_out_r01.txt",
+      "category": "research",
+      "status": "fail",
+      "duration_sec": 0.0,
+      "error": "File eval_out_r01.txt does not exist."
+    },
+    {
+      "id": "r02",
+      "prompt": "Identify the founder of Python and write their name to eval_out_r02.txt",
+      "category": "research",
+      "status": "fail",
+      "duration_sec": 0.0,
+      "error": "File eval_out_r02.txt does not exist."
+    },
+    {
+      "id": "r03",
+      "prompt": "Find the capital city of France and write it to eval_out_r03.txt",
+      "category": "research",
+      "status": "fail",
+      "duration_sec": 0.0,
+      "error": "File eval_out_r03.txt does not exist."
+    },
+    {
+      "id": "r04",
+      "prompt": "What is the speed of light in vacuum in meters per second? Write only the number to eval_out_r04.txt",
+      "category": "research",
+      "status": "fail",
+      "duration_sec": 0.0,
+      "error": "File eval_out_r04.txt does not exist."
+    },
+    {
+      "id": "r05",
+      "prompt": "Identify the atomic number of Gold and write it to eval_out_r05.txt",
+      "category": "research",
+      "status": "fail",
+      "duration_sec": 0.0,
+      "error": "File eval_out_r05.txt does not exist."
+    },
+    {
+      "id": "res01",
+      "prompt": "Evaluate the expression (12 * 8) + 4 and write the result to eval_out_res01.txt",
+      "category": "reasoning",
+      "status": "fail",
+      "duration_sec": 0.0,
+      "error": "File eval_out_res01.txt does not exist."
+    },
+    {
+      "id": "res02",
+      "prompt": "If a triangle has sides of 3 and 4 with a right angle between them, what is the hypotenuse? Write the number to eval_out_res02.txt",
+      "category": "reasoning",
+      "status": "fail",
+      "duration_sec": 0.0,
+      "error": "File eval_out_res02.txt does not exist."
+    },
+    {
+      "id": "res03",
+      "prompt": "Calculate 2 to the power of 10 and write the result to eval_out_res03.txt",
+      "category": "reasoning",
+      "status": "fail",
+      "duration_sec": 0.0,
+      "error": "File eval_out_res03.txt does not exist."
+    },
+    {
+      "id": "res04",
+      "prompt": "Solve for x: 3x - 7 = 14. Write only the value of x to eval_out_res04.txt",
+      "category": "reasoning",
+      "status": "fail",
+      "duration_sec": 0.0,
+      "error": "File eval_out_res04.txt does not exist."
+    },
+    {
+      "id": "res05",
+      "prompt": "Which number is larger: 0.05 or 0.009? Write the larger number to eval_out_res05.txt",
+      "category": "reasoning",
+      "status": "fail",
+      "duration_sec": 0.0,
+      "error": "File eval_out_res05.txt does not exist."
+    },
+    {
+      "id": "res06",
+      "prompt": "Calculate the area of a rectangle with length 15 and width 6 and write the result to eval_out_res06.txt",
+      "category": "reasoning",
+      "status": "fail",
+      "duration_sec": 0.0,
+      "error": "File eval_out_res06.txt does not exist."
+    },
+    {
+      "id": "res07",
+      "prompt": "Evaluate 150 divided by 5 and write the result to eval_out_res07.txt",
+      "category": "reasoning",
+      "status": "fail",
+      "duration_sec": 0.0,
+      "error": "File eval_out_res07.txt does not exist."
+    },
+    {
+      "id": "res08",
+      "prompt": "Find the sum of all integers from 1 to 10 inclusive and write the result to eval_out_res08.txt",
+      "category": "reasoning",
+      "status": "fail",
+      "duration_sec": 0.0,
+      "error": "File eval_out_res08.txt does not exist."
+    },
+    {
+      "id": "res09",
+      "prompt": "What is 15% of 200? Write only the result to eval_out_res09.txt",
+      "category": "reasoning",
+      "status": "fail",
+      "duration_sec": 0.0,
+      "error": "File eval_out_res09.txt does not exist."
+    },
+    {
+      "id": "res10",
+      "prompt": "If a clock shows 3:00, what is the angle in degrees between the hour and minute hands? Write only the number to eval_out_res10.txt",
+      "category": "reasoning",
+      "status": "fail",
+      "duration_sec": 0.0,
+      "error": "File eval_out_res10.txt does not exist."
+    },
+    {
+      "id": "c01",
+      "prompt": "Write a Python script named eval_out_c01.py that prints 'HELLO_WORLD' when executed.",
+      "category": "coding",
+      "status": "fail",
+      "duration_sec": 0.0,
+      "error": "Expected file eval_out_c01.py does not exist."
+    },
+    {
+      "id": "c02",
+      "prompt": "Write a Python script named eval_out_c02.py containing a function `add(a,b)` that returns `a+b`.",
+      "category": "coding",
+      "status": "fail",
+      "duration_sec": 0.0,
+      "error": "File eval_out_c02.py does not exist."
+    },
+    {
+      "id": "c03",
+      "prompt": "Create a JSON file named eval_out_c03.json containing key 'status' with value 'ok'.",
+      "category": "coding",
+      "status": "fail",
+      "duration_sec": 0.0,
+      "error": "File eval_out_c03.json does not exist."
+    },
+    {
+      "id": "c04",
+      "prompt": "Write a Python script named eval_out_c04.py containing a function `multiply(a,b)`.",
+      "category": "coding",
+      "status": "fail",
+      "duration_sec": 0.0,
+      "error": "File eval_out_c04.py does not exist."
+    },
+    {
+      "id": "c05",
+      "prompt": "Create a file named eval_out_c05.txt containing a Python list of numbers from 1 to 5 formatted as a string.",
+      "category": "coding",
+      "status": "fail",
+      "duration_sec": 0.0,
+      "error": "File eval_out_c05.txt does not exist."
+    }
+  ]
+}

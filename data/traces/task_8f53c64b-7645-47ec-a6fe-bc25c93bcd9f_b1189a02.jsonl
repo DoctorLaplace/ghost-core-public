@@ -1,0 +1,5 @@
+{"ts": "2026-06-11T17:30:42.985244Z", "event_type": "trace_started", "payload": {"task_id": "task_8f53c64b-7645-47ec-a6fe-bc25c93bcd9f"}}
+{"ts": "2026-06-11T17:30:43.170211Z", "event_type": "prompt_budget", "payload": {"total_tokens_est": 12566, "dropped_sections": []}}
+{"ts": "2026-06-11T17:30:43.174278Z", "event_type": "llm_request", "payload": {"prompt_len_chars": 67129, "model": "gemini-3.5-flash"}}
+{"ts": "2026-06-11T17:30:43.179455Z", "event_type": "llm_request", "payload": {"prompt_len_chars": 227, "model": "gemini-3.1-flash-lite"}}
+{"ts": "2026-06-11T17:30:44.788579Z", "event_type": "llm_response", "payload": {"model": "gemini-3.1-flash-lite", "latency_sec": 1.6086106300354004, "response_len_chars": 23}}

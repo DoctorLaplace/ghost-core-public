@@ -1,0 +1,11 @@
+{"ts": "2026-06-11T17:11:36.807005Z", "event_type": "trace_started", "payload": {"task_id": "task_f0118bad-6f75-4199-85ef-5ee459acd53d"}}
+{"ts": "2026-06-11T17:11:37.009385Z", "event_type": "prompt_budget", "payload": {"total_tokens_est": 11246, "dropped_sections": []}}
+{"ts": "2026-06-11T17:11:42.759846Z", "event_type": "tool_call", "payload": {"tool": "create_file", "args_keys": ["path", "content"]}}
+{"ts": "2026-06-11T17:11:42.761899Z", "event_type": "tool_result", "payload": {"tool": "create_file", "success": true, "result_len": 62}}
+{"ts": "2026-06-11T17:11:42.832948Z", "event_type": "prompt_budget", "payload": {"total_tokens_est": 11289, "dropped_sections": []}}
+{"ts": "2026-06-11T17:11:48.631823Z", "event_type": "tool_call", "payload": {"tool": "read_file", "args_keys": ["path"]}}
+{"ts": "2026-06-11T17:11:48.633368Z", "event_type": "tool_result", "payload": {"tool": "read_file", "success": true, "result_len": 4}}
+{"ts": "2026-06-11T17:11:48.679794Z", "event_type": "prompt_budget", "payload": {"total_tokens_est": 11319, "dropped_sections": []}}
+{"ts": "2026-06-11T17:11:54.021361Z", "event_type": "tool_call", "payload": {"tool": "answer_director", "args_keys": ["response"]}}
+{"ts": "2026-06-11T17:11:54.021875Z", "event_type": "tool_result", "payload": {"tool": "answer_director", "success": true, "result_len": 92}}
+{"ts": "2026-06-11T17:11:54.022901Z", "event_type": "trace_ended", "payload": {"outcome": "success"}}

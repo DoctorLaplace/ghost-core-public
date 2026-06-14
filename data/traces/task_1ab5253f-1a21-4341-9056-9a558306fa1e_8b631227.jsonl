@@ -1,0 +1,8 @@
+{"ts": "2026-06-11T17:10:15.559123Z", "event_type": "trace_started", "payload": {"task_id": "task_1ab5253f-1a21-4341-9056-9a558306fa1e"}}
+{"ts": "2026-06-11T17:10:20.179803Z", "event_type": "tool_call", "payload": {"tool": "create_file", "args_keys": ["path", "content"]}}
+{"ts": "2026-06-11T17:10:20.180828Z", "event_type": "tool_result", "payload": {"tool": "create_file", "success": true, "result_len": 62}}
+{"ts": "2026-06-11T17:10:27.534510Z", "event_type": "tool_call", "payload": {"tool": "read_file", "args_keys": ["path"]}}
+{"ts": "2026-06-11T17:10:27.535544Z", "event_type": "tool_result", "payload": {"tool": "read_file", "success": true, "result_len": 4}}
+{"ts": "2026-06-11T17:10:35.006818Z", "event_type": "tool_call", "payload": {"tool": "answer_director", "args_keys": ["response"]}}
+{"ts": "2026-06-11T17:10:35.006818Z", "event_type": "tool_result", "payload": {"tool": "answer_director", "success": true, "result_len": 110}}
+{"ts": "2026-06-11T17:10:35.007848Z", "event_type": "trace_ended", "payload": {"outcome": "success"}}

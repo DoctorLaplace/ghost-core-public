@@ -1,0 +1,46 @@
+# For Gemini API
+google-genai
+anthropic
+
+# For Director UI Web Server
+fastapi
+uvicorn
+websockets
+
+# For environment variable management
+python-dotenv
+
+# For Vector Database (Long-Term Memory)
+qdrant-client
+sentence-transformers
+
+# For Knowledge Graph
+neo4j
+
+# For Web Search Tool
+requests
+beautifulsoup4
+
+# For colored logging
+colorlog
+
+# Google Search Engine
+google-api-python-client
+
+# Desktop Application Wrapper
+pywebview
+pystray
+Pillow
+
+# Windows UI Automation
+uiautomation
+
+# --- Visual/UI Grounding Capabilities ---
+torch
+torchvision
+transformers
+accelerate
+qwen-vl-utils
+pywin32
+pyautogui
+mss

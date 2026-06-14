@@ -1,0 +1,8 @@
+{"ts": "2026-06-11T17:14:20.690950Z", "event_type": "trace_started", "payload": {"task_id": "task_c9977c11-d09f-46d8-bfc6-5d0a7188c97b"}}
+{"ts": "2026-06-11T17:14:20.889133Z", "event_type": "prompt_budget", "payload": {"total_tokens_est": 11246, "dropped_sections": []}}
+{"ts": "2026-06-11T17:14:29.070444Z", "event_type": "tool_call", "payload": {"tool": "create_file", "args_keys": ["path", "content"]}}
+{"ts": "2026-06-11T17:14:29.071481Z", "event_type": "tool_result", "payload": {"tool": "create_file", "success": true, "result_len": 62}}
+{"ts": "2026-06-11T17:14:29.130274Z", "event_type": "prompt_budget", "payload": {"total_tokens_est": 11289, "dropped_sections": []}}
+{"ts": "2026-06-11T17:14:35.681216Z", "event_type": "tool_call", "payload": {"tool": "answer_director", "args_keys": ["response"]}}
+{"ts": "2026-06-11T17:14:35.681734Z", "event_type": "tool_result", "payload": {"tool": "answer_director", "success": true, "result_len": 75}}
+{"ts": "2026-06-11T17:14:35.682768Z", "event_type": "trace_ended", "payload": {"outcome": "success"}}

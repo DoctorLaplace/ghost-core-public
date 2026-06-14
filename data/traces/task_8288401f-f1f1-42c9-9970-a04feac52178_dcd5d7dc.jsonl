@@ -1,0 +1,30 @@
+{"ts": "2026-06-11T17:22:26.390911Z", "event_type": "trace_started", "payload": {"task_id": "task_8288401f-f1f1-42c9-9970-a04feac52178"}}
+{"ts": "2026-06-11T17:22:26.558478Z", "event_type": "prompt_budget", "payload": {"total_tokens_est": 11597, "dropped_sections": []}}
+{"ts": "2026-06-11T17:22:26.562565Z", "event_type": "llm_request", "payload": {"prompt_len_chars": 63202, "model": "gemini-3.5-flash"}}
+{"ts": "2026-06-11T17:22:26.567209Z", "event_type": "llm_request", "payload": {"prompt_len_chars": 212, "model": "gemini-3.1-flash-lite"}}
+{"ts": "2026-06-11T17:22:28.244964Z", "event_type": "llm_response", "payload": {"model": "gemini-3.1-flash-lite", "latency_sec": 1.6777548789978027, "response_len_chars": 24}}
+{"ts": "2026-06-11T17:22:36.205745Z", "event_type": "llm_response", "payload": {"model": "gemini-3.5-flash", "latency_sec": 9.64318037033081, "response_len_chars": 1187}}
+{"ts": "2026-06-11T17:22:36.206259Z", "event_type": "plan_generated", "payload": {"count": 3}}
+{"ts": "2026-06-11T17:22:36.206765Z", "event_type": "llm_request", "payload": {"prompt_len_chars": 1484, "model": "gemini-3.1-flash-lite"}}
+{"ts": "2026-06-11T17:22:37.137746Z", "event_type": "llm_response", "payload": {"model": "gemini-3.1-flash-lite", "latency_sec": 0.9304749965667725, "response_len_chars": 324}}
+{"ts": "2026-06-11T17:22:37.138251Z", "event_type": "plan_selected", "payload": {"plan_id": "direct_file_creation", "estimated_risk": "low"}}
+{"ts": "2026-06-11T17:22:37.139274Z", "event_type": "dry_run", "payload": {"grounded": true, "reason": "not dry-runnable"}}
+{"ts": "2026-06-11T17:22:37.139786Z", "event_type": "llm_request", "payload": {"prompt_len_chars": 62726, "model": "gemini-3.5-flash"}}
+{"ts": "2026-06-11T17:22:43.003946Z", "event_type": "llm_response", "payload": {"model": "gemini-3.5-flash", "latency_sec": 5.864160537719727, "response_len_chars": 301}}
+{"ts": "2026-06-11T17:22:43.004453Z", "event_type": "tool_call", "payload": {"tool": "create_file", "args_keys": ["path", "content"]}}
+{"ts": "2026-06-11T17:22:43.005484Z", "event_type": "tool_result", "payload": {"tool": "create_file", "success": true, "result_len": 70}}
+{"ts": "2026-06-11T17:22:43.070920Z", "event_type": "prompt_budget", "payload": {"total_tokens_est": 11731, "dropped_sections": []}}
+{"ts": "2026-06-11T17:22:43.071431Z", "event_type": "llm_request", "payload": {"prompt_len_chars": 1679, "model": "gemini-3.1-flash-lite"}}
+{"ts": "2026-06-11T17:22:43.071938Z", "event_type": "llm_request", "payload": {"prompt_len_chars": 63263, "model": "gemini-3.5-flash"}}
+{"ts": "2026-06-11T17:22:44.054874Z", "event_type": "llm_response", "payload": {"model": "gemini-3.1-flash-lite", "latency_sec": 0.982935905456543, "response_len_chars": 252}}
+{"ts": "2026-06-11T17:22:45.510052Z", "event_type": "llm_response", "payload": {"model": "gemini-3.5-flash", "latency_sec": 2.4376003742218018, "response_len_chars": 271}}
+{"ts": "2026-06-11T17:22:45.510600Z", "event_type": "tool_call", "payload": {"tool": "read_file", "args_keys": ["path"]}}
+{"ts": "2026-06-11T17:22:45.511707Z", "event_type": "tool_result", "payload": {"tool": "read_file", "success": true, "result_len": 10}}
+{"ts": "2026-06-11T17:22:45.574493Z", "event_type": "prompt_budget", "payload": {"total_tokens_est": 11765, "dropped_sections": []}}
+{"ts": "2026-06-11T17:22:45.575524Z", "event_type": "llm_request", "payload": {"prompt_len_chars": 1592, "model": "gemini-3.1-flash-lite"}}
+{"ts": "2026-06-11T17:22:45.575524Z", "event_type": "llm_request", "payload": {"prompt_len_chars": 63399, "model": "gemini-3.5-flash"}}
+{"ts": "2026-06-11T17:22:46.234064Z", "event_type": "llm_response", "payload": {"model": "gemini-3.1-flash-lite", "latency_sec": 0.6580300331115723, "response_len_chars": 282}}
+{"ts": "2026-06-11T17:22:51.051079Z", "event_type": "llm_response", "payload": {"model": "gemini-3.5-flash", "latency_sec": 5.474534749984741, "response_len_chars": 367}}
+{"ts": "2026-06-11T17:22:51.052101Z", "event_type": "tool_call", "payload": {"tool": "answer_director", "args_keys": ["response"]}}
+{"ts": "2026-06-11T17:22:51.052101Z", "event_type": "tool_result", "payload": {"tool": "answer_director", "success": true, "result_len": 98}}
+{"ts": "2026-06-11T17:22:51.053113Z", "event_type": "trace_ended", "payload": {"outcome": "success"}}

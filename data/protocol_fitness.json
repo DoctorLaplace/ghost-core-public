@@ -1,0 +1,62 @@
+{
+    "zombie": {
+        "score": 0.28242953648100017,
+        "trials": 12
+    },
+    "Operational Hygiene": {
+        "score": 1.0,
+        "trials": 3
+    },
+    "Workspace Usage": {
+        "score": 1.0,
+        "trials": 3
+    },
+    "Self-Correction": {
+        "score": 1.0,
+        "trials": 3
+    },
+    "Enforce Output Encoding": {
+        "score": 1.0,
+        "trials": 3
+    },
+    "Hierarchical Task Completion": {
+        "score": 1.0,
+        "trials": 3
+    },
+    "Safe File Delivery": {
+        "score": 1.0,
+        "trials": 3
+    },
+    "Strategic Alignment": {
+        "score": 1.0,
+        "trials": 3
+    },
+    "Recursive Knowledge Preservation": {
+        "score": 1.0,
+        "trials": 3
+    },
+    "Autonomous Recovery": {
+        "score": 1.0,
+        "trials": 3
+    },
+    "GUI Launch Protocol": {
+        "score": 1.0,
+        "trials": 3
+    },
+    "Asynchronicity & GUI Launching": {
+        "score": 1.0,
+        "trials": 3
+    },
+    "Avoid Versioned Script Duplication": {
+        "score": 1.0,
+        "trials": 3
+    },
+    "Leverage In-Context File Data": {
+        "score": 1.0,
+        "trials": 3
+    },
+    "Prefer Dedicated File Tools": {
+        "score": 1.0,
+        "trials": 3
+    }
+}
